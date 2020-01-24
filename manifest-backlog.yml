@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    BACKLOG_SERVER_ENDPOINT: https://backlog-pal-VinayMadugula-apps.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://${REGISTRATION_SERVER_ROUTE}
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-backlog-database
